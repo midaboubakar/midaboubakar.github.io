@@ -1,0 +1,27 @@
+onfig --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'midab@LAPTOP-65HEKS6S.(none)')
+PS C:\Users\midab\OneDrive\Desktop\midaboubakar.github.io> git push
+Everything up-to-date
+PS C:\Users\midab\OneDrive\Desktop\midaboubakar.github.io> git push
+Everything up-to-date
+PS C:\Users\midab\OneDrive\Desktop\midaboubakar.github.io> git push origin main
+Everything up-to-date
+PS C:\Users\midab\OneDrive\Desktop\midaboubakar.github.io> git pull
+Already up to date.
+PS C:\Users\midab\OneDrive\Desktop\midaboubakar.github.io> git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 644 bytes | 64.00 KiB/s, done.
+From https://github.com/midaboubakar/midaboubakar.github.io
+   0b7f4da..97f3468  main       -> origin/main
+Updating 0b7f4da..97f3468
+Fast-forward
+ oo | 1 +
+ 1 file changed, 1 inse
