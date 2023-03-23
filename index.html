@@ -4,18 +4,215 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mon portofolio |midaboubakar@gmail.com</title>
+
+    <!--box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css -->
     <link rel="stylesheet" href="style.css">
-    <title>Devinez le mot</title>
+
 </head>
 <body>
-    <main>
-        <h1>devinez le mot</h1>
-        <p id="word"></p>
-        <input type="text" id="guess">
-        <button id="submit">devinez</button>
-        <button id="link" onclick="window.open('index.html')">restart</button>
-        <p id="result"></p>
-    </main>
-</body>
+    <!-- header design-->
+    <header class="header">
+        <a href="#" class="logo">portofolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">home</a>
+            <a href="#about">About</a>
+            <a href="#services">services</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello ,it's Me</h3>
+            <h1>ella midjiyawa <br><br><br><br><br>
+                 mohamadou aboubakar</h1>
+            <h3>et je suis<br> <span>Etudiant en informatique</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eveniet dignissimos similique laboriosam ipsam! Explicabo, in cupiditate! Eveniet numquam sed aperiam alias provident, placeat asperiores porro culpa dolorem earum omnis?
+            Doloremque voluptatum tempora, consequuntur voluptatem reprehenderit hic nostrum itaque minus culpa velit nisi alias quae harum fuga blanditiis est assumenda modi iste in error asperiores aut provident laudantium ipsa? Enim?
+            Molestiae perferendis, debitis ex odio minima, ratione commodi nemo officiis iure sit, cupiditate beatae consectetur consequuntur ipsum reiciendis. Cum cupiditate ducimus animi blanditiis ad dolorum est fuga veniam reprehenderit fugit!</p>
+            <div class="social-media">
+               <a href="#"><i class='bx bxl-github' ></i></a>
+               <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+               <a href="#"><i class='bx bxl-twitter'></i></a>
+               <a href="#"><i class='bx bxl-discord-alt' ></i></a>
+               <a href="#"><i class='bx bxl-gmail' ></i></a>
+            </div>
+            <a href="#" class="btn">telecharger mon cv</a>
+        </div>
+        <div class="home-img">
+            <img src="4x4_page-0001.jpg" alt="">
+        </div>
+    </section>
+
+    <!--about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="4x4_page-0001.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>etudiant en informatique</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam odit cumque minus.
+            A autem placeat sunt incidunt accusantium repellendus
+            deleniti quisquam, eum quidem saepe aliquid amet sequi reiciendis. Excepturi, deleniti!
+            Tempore, vitae voluptates deserunt officia ratione culpa fugit quia unde quibusdam esse  
+        </p>
+        <a href="#" class="btn">Read more</a>
+
+        </div>
+    </section>
+
+    <!--services section-->
+    <section class="services" id="services">
+        <h2 class="heading">our <span>services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>web developpement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sequi
+                quae a, quod asperiores magni fugit eveniet laborum ab magnam. Quos asperiores
+                illum consequuntur, architecto corrupti voluptatem voluptatibus cumque modi!
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-paint-roll' ></i>
+                <h3>marketting</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sequi
+                quae a, quod asperiores magni fugit eveniet laborum ab magnam. Quos asperiores
+                illum consequuntur, architecto corrupti voluptatem voluptatibus cumque modi!
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-paint-roll' ></i>
+                <h3>marketting</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sequi
+                quae a, quod asperiores magni fugit eveniet laborum ab magnam. Quos asperiores
+                illum consequuntur, architecto corrupti voluptatem voluptatibus cumque modi!
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--porto folio-->
+    <section class="portofolio" id="portofolio">
+        <h2 class="heading">latest <span>projet</span></h2>
+
+        <div class="portofolio-container">
+          
+
+            <div class="portofolio-box">
+                <img src="building-66789_960_720.jpg"  width="35%" height="30%" alt="">
+                <div class="portofolio-layer">
+                    <h4>web design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, minus eaque error, eos praesentium ad odit, delectus animi dolore
+                        odio eligendi velit dolor nemo labore. Ducimus maiores voluptates expedita consectetur.
+                    </p>
+                    <a href="#"><i class='bx bx-link-alt' ></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="building-66789_960_720.jpg"  width="35%" height="30%" alt="">
+                <div class="portofolio-layer">
+                    <h4>web design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, minus eaque error, eos praesentium ad odit, delectus animi dolore
+                        odio eligendi velit dolor nemo labore. Ducimus maiores voluptates expedita consectetur.
+                    </p>
+                    <a href="#"><i class='bx bx-link-alt' ></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="building-66789_960_720.jpg"  width="35%" height="30%" alt="">
+                <div class="portofolio-layer">
+                    <h4>web design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, minus eaque error, eos praesentium ad odit, delectus animi dolore
+                        odio eligendi velit dolor nemo labore. Ducimus maiores voluptates expedita consectetur.
+                    </p>
+                    <a href="#"><i class='bx bx-link-alt' ></i></a>
+                </div>
+            </div>
+            
+            <div class="portofolio-box">
+                <img src="building-66789_960_720.jpg"  width="35%" height="30%" alt="">
+                <div class="portofolio-layer">
+                    <h4>web design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, minus eaque error, eos praesentium ad odit, delectus animi dolore
+                        odio eligendi velit dolor nemo labore. Ducimus maiores voluptates expedita consectetur.
+                    </p>
+                    <a href="#"><i class='bx bx-link-alt' ></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="building-66789_960_720.jpg"  width="35%" height="30%" alt="">
+                <div class="portofolio-layer">
+                    <h4>web design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, minus eaque error, eos praesentium ad odit, delectus animi dolore
+                        odio eligendi velit dolor nemo labore. Ducimus maiores voluptates expedita consectetur.
+                    </p>
+                    <a href="#"><i class='bx bx-link-alt' ></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="building-66789_960_720.jpg"  width="35%" height="30%" alt="">
+                <div class="portofolio-layer">
+                    <h4>web design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, minus eaque error, eos praesentium ad odit, delectus animi dolore
+                        odio eligendi velit dolor nemo labore. Ducimus maiores voluptates expedita consectetur.
+                    </p>
+                    <a href="#"><i class='bx bx-link-alt' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">contact <span>ME!</span></h2>
+
+        <form action="#">
+            <div class="input-box" >
+                <input type="text" placeholder="nom complet">
+                <input type="email" placeholder="adresse email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="numero de telephone">
+                <input type="text" placeholder="ecrire un sujet">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="ecrire votre message"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>copyright &copy; 2023 by midaboubakar@gmail.com</p>
+        </div>
+
+        <div class="footer-icontop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <!-- custom js-->
     <script src="script.js"></script>
+</body>
 </html>
